@@ -29,7 +29,7 @@ with st.sidebar:
                 * +234 7010412114
                 """)
 
-st.title("ETL Pipeline for Kaduna LGAs TB Data!")
+st.title("ETL Pipeline for Kaduna LGAs TB Data")
 
 data_desc = {
     'block1a':'Detailed Activities of Presumptive PTB Cases',
