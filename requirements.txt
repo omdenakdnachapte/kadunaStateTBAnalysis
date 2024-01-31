@@ -95,7 +95,6 @@ slicer==0.0.7
 smmap==5.0.1
 SQLAlchemy==2.0.25
 sqlglot==20.11.0
-st-dbscan==0.0.post0.dev4+gc80a606
 stack-data==0.6.3
 statsmodels==0.14.1
 streamlit==1.30.0
