@@ -32,12 +32,12 @@ with st.sidebar:
                 """)
 
 
-block1a_complete = pd.read_csv("Datasets/block1a/block1a_19_23_complete.csv", index_col=0)
-block2a_complete = pd.read_csv("Datasets/block2a/block2a_19_23_complete.csv", index_col=0)
-block2b_complete = pd.read_csv("Datasets/block2b/block2b_19_23_complete.csv", index_col=0)
-block2c_complete = pd.read_csv("Datasets/block2c/block2c_19_23_complete.csv", index_col=0)
-block2d_complete = pd.read_csv("Datasets/block2d/block2d_19_23_complete.csv", index_col=0)
-block2e_complete = pd.read_csv("Datasets/block2e/block2e_19_23_complete.csv", index_col=0)
+block1a_complete = pd.read_csv("Datasets/block1a/block1a_19_to_23_complete.csv", index_col=0)
+block2a_complete = pd.read_csv("Datasets/block2a/block2a_19_to_23_complete.csv", index_col=0)
+block2b_complete = pd.read_csv("Datasets/block2b/block2b_19_to_23_complete.csv", index_col=0)
+block2c_complete = pd.read_csv("Datasets/block2c/block2c_19_to_23_complete.csv", index_col=0)
+block2d_complete = pd.read_csv("Datasets/block2d/block2d_19_to_23_complete.csv", index_col=0)
+block2e_complete = pd.read_csv("Datasets/block2e/block2e_19_to_23_complete.csv", index_col=0)
 
 block_type = st.radio('Select a data block to load:',
                         options = ('block1a', 'block2a', 'block2b', 'block2c', 'block2d', 'block2e'),
