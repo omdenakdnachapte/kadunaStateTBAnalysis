@@ -37,7 +37,7 @@ dataType = ["Breakdown of activities of all presumptive PTB cases on the clinic 
 
 gps_facility_df = pd.read_csv("Datasets/Misc/gps_facility_final.csv")
 
-st.title("Kaduna State Visualizations!")
+st.title("Kaduna State Visualizations")
 #Sidebar for Slected Year
 with st.sidebar:
     st.sidebar.image("images/Kaduna chapter logo.jpg")
